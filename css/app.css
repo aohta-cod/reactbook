@@ -1,0 +1,11 @@
+/* Excel Table styles */
+.excel-table {
+	margin: 20px;
+}
+.excel-table thead {
+	border: 1px solid black;
+}
+.excel-table thead th {
+	padding: 5px;
+}
+/* End Excel Table styles */

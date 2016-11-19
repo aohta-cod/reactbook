@@ -33,7 +33,7 @@ Excel = React.createClass({
     displayName: 'Excel',
     render: function () {
         return (
-            React.DOM.table(null,
+            React.DOM.table({className: 'excel-table'},
                 React.DOM.thead(null,
                     React.DOM.tr(null,
                         this.props.headers.map(function (title, idx) {
